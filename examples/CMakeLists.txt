@@ -13,7 +13,6 @@ SET(INCLUDE_DIRS ${CMAKE_SOURCE_DIR} )
 #  ${CMAKE_SOURCE_DIR}/cmake
 #)
 
-find_package(OpenCV)
 if (OpenCV_FOUND)
 list(APPEND INCLUDE_DIRS ${OpenCV_INCLUDE_DIRS})
 list(APPEND LIBS ${OpenCV_LIBS})
