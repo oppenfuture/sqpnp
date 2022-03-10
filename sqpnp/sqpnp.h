@@ -416,8 +416,8 @@ namespace sqpnp
      */
     inline static void NearestRotationMatrix_FOAM(const Eigen::Matrix<double, 9, 1>& e, Eigen::Matrix<double, 9, 1>& r)
     {
-    register int i;
-    register const double *B=e.data();
+    int i;
+    const double *B=e.data();
     double l, lprev, detB, Bsq, adjBsq, adjB[9];
 
       //double B[9];
